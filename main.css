@@ -1,3 +1,11 @@
+html.sr .load-hidden {
+    visibility: hidden;
+  }
+
+html {
+    background-color: rgb(242, 242, 242);
+  }
+
 .section-padding {
     padding: 5rem 2rem !important;
 }
