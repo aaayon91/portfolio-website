@@ -2,17 +2,18 @@ html.sr .load-hidden {
     visibility: hidden;
   }
 
-html {
-    background-color: rgb(242, 242, 242);
+body {
+    /* background-color: rgb(242, 242, 242); */
+    background-color: #F0EFEB;
   }
 
 .section-padding {
     padding: 5rem 2rem !important;
 }
 
-/* .section-padding-1 {
-    padding: 5rem 2rem 5rem 2rem !important;
-} */
+.section-padding-1 {
+    padding: 7rem 2rem 5rem 2rem !important;
+}
 
 .image-border {
     box-shadow:0 4px 8px 0 rgba(146, 145, 145, 0.2), 0 6px 20px 0 rgba(105, 105, 105, 0.19);
@@ -46,6 +47,13 @@ opacity: 0.70;
      color: #0F4FB5;  
 }
 
-/* footer {
-    background-color: gray;
-} */
+.resume-button {
+    background-color: #ff0000;
+    color: white;
+}
+
+.footer {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 1rem;
+}
