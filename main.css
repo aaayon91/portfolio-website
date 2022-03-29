@@ -1,31 +1,50 @@
 html.sr .load-hidden {
     visibility: hidden;
-  }
+}
 
 body {
     /* background-color: rgb(242, 242, 242); */
     background-color: #F0EFEB;
-  }
-
-.section-padding {
-    padding: 5rem 2rem !important;
+    font-family: 'Manrope', sans-serif;
 }
+
+/* .section-padding {
+    padding: 2rem 0rem 2rem 0rem !important;
+} */
 
 .section-padding-1 {
     padding: 7rem 2rem 5rem 2rem !important;
 }
 
-.image-border {
-    box-shadow:0 4px 8px 0 rgba(146, 145, 145, 0.2), 0 6px 20px 0 rgba(105, 105, 105, 0.19);
+.container {
+    width: 100%;
+    padding: 0%;
+}
+
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.icon-size {
+    font-size: 48px;
   }
 
+.image-border {
+    box-shadow:0 4px 8px 0 rgba(146, 145, 145, 0.2), 0 6px 20px 0 rgba(105, 105, 105, 0.19);
+}
+
 .image-container {
-position: relative;
-transition: 0.3s ease;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    transition: 0.3s ease;
 } 
 
 .image-container:hover {
-opacity: 0.70;
+    opacity: 0.70;
 }
 
 .titles {
@@ -35,8 +54,16 @@ opacity: 0.70;
 }
 
 .button {
-    background-color:gray;
-    color:black;
+    background-color:black;
+    color:white;
+}
+
+.tech-used {
+    color: gray;
+}
+
+.wide {
+    letter-spacing: .25rem;
 }
 
 .fa-github-square {
@@ -53,7 +80,152 @@ opacity: 0.70;
 }
 
 .footer {
+    /* border-top: 1px solid gray; */
     margin-top: 0rem;
     background-color: #fff;
     padding: 1rem;
+    padding-top: 3rem;
 }
+
+.squareup-section {
+    background: linear-gradient(
+        to right,
+        #FA532E 0%,
+        #FA532E 50%,
+        white 50%,
+        white 100%
+    );
+}
+
+.hotspot-section {
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        blue 50%,
+        blue 100%
+    );
+}
+
+.tickertracker-section {
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 50%,
+        white 50%,
+        white 100%
+    );
+    box-shadow:0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+.connectfour-section {
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        red 50%,
+        red 100%
+    );
+}
+
+.project-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 5%;
+}
+
+.project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .squareup-section {
+        background: linear-gradient(
+            to bottom,
+            #FA532E 0%,
+            #FA532E 50%,
+            white 50%,
+            white 100%
+        );
+    }
+
+    .hotspot-section {
+        background: linear-gradient(
+            to bottom,
+            blue 0%,
+            blue 50%,
+            white 50%,
+            white 100%
+        );
+    }
+    
+    .tickertracker-section {
+        background: linear-gradient(
+            to bottom,
+            black 0%,
+            black 50%,
+            white 50%,
+            white 100%
+        );
+        box-shadow:0 4px 8px 0 white, 0 6px 20px 0 white;
+    }
+    
+    .connectfour-section {
+        background: linear-gradient(
+            to bottom,
+            red 0%,
+            red 50%,
+            white 50%,
+            white 100%
+        );
+    }
+
+    .column {
+        height: 50%;
+    }
+
+    .squareup-section {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .hotspot-section {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .tickertracker-section {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .connectfour-section {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .project-description {
+        width: 100%;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+}
+
+/* hr {
+    height: 1px;
+    background-color: black;
+} */
