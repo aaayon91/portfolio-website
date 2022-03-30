@@ -8,7 +8,7 @@
     <<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <!-- import icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> -->
     <!-- bulma.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <!-- import local stylesheet -->
@@ -22,6 +22,9 @@
 </head>
 <body>
     <nav class="navbar is-transparent is-fixed-top">
+        <!-- <div class="navbar-start">
+            <h1 class="nav-name">Arturo Ayon</h1>
+        </div> -->
         <div class="navbar-brand">
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -30,8 +33,9 @@
             </div>
         </div>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="navbar-start">
-            </div>
+            <!-- <div class="navbar-start">
+                <h1 class="nav-name">Arturo Ayon</h1>
+            </div> -->
             <div class="navbar-end">
                 <div class="navbar-item">
                     <a class="navbar-item item-two" href="#about">About</a>
@@ -43,46 +47,20 @@
     </nav>
     <div id="about"></div>
 
-    <!-- <section class="section reveal load-hidden section-padding-1">
-        <div class="container">
-            <div class="columns is-variable bd-klmn-columns is-8">
-                <div class="column is-6">
-                    <div>
-                        <figure style="width: 70%">
-                            <img src="./images/headshot.png" style="border-radius: 15px;">
-                        </figure>
-
-                    </div>
-                </div>
-                <div class="column">
-                    <h1 class="title">ABOUT ME:</h1>
-                    <h2 class="subtitle">My name is Arturo Ayon and I am a full stack web developer experienced in React.js, Node.js, Express, MongoDB, JavaScript, HTLM, CSS, Django, Python, and PostgreSQL. I am a former mechanical/manufacturing engineer who decided to fulfill his curiosity and pursue a career in software engineering and couldn't be any happier with my decision. </h2>
-                </div>
-            </div>
+    <section class="hero-section">
+        <img class="hero-img" src="./images/headshot.png" style="border-radius: 50px; width: 400px;">
+        <div class="hero-text">
+            <!-- <h1 class="title">ABOUT ME:</h1> -->
+            <h2 class="subtitle">My name is Arturo Ayon and I am a full stack web developer experienced in React.js, Node.js, Express, MongoDB, JavaScript, HTLM, CSS, Django, Python, and PostgreSQL. I am a former mechanical/manufacturing engineer who decided to fulfill his curiosity and pursue a career in software engineering and couldn't be any happier with my decision. </h2>
         </div>
         <div id="portfolio"></div>
-    </section> -->
-
-    <section class="hero-section">
-                <!-- <div class="hero-img"> -->
-                        <!-- <figure class="headshot" style="width: 70%"> -->
-                            <img class="hero-img" src="./images/headshot.png" style="border-radius: 100px; width: 500px;">
-                        <!-- </figure> -->
-                <!-- </div> -->
-                <div class="hero-text">
-                    <h1 class="title">ABOUT ME:</h1>
-                    <h2 class="subtitle">My name is Arturo Ayon and I am a full stack web developer experienced in React.js, Node.js, Express, MongoDB, JavaScript, HTLM, CSS, Django, Python, and PostgreSQL. I am a former mechanical/manufacturing engineer who decided to fulfill his curiosity and pursue a career in software engineering and couldn't be any happier with my decision. </h2>
-                </div>
-        <div id="portfolio"></div>
     </section>
-
-    <!-- <hr> -->
 
     <section class="project-section squareup-section">
         <div class="project-image squareup-img-div">
             <figure class="" style="width: 500px">
                 <a href="https://github.com/aaayon91/square-up" target="_blank">
-                <img src="./images/squareup.png" style="border-radius: 5px;">
+                <img class="images" src="./images/squareup.png" style="border-radius: 5px;">
                 </a>
             </figure>
         </div>
@@ -163,7 +141,7 @@
         <div class="project-image hotspot-img-div">
             <figure class="" style="width: 500px">
                 <a href="https://github.com/aaayon91/hotspot" target="_blank">
-                <img src="./images/hotspot.png" style="border-radius: 5px;">
+                <img class="images" src="./images/hotspot.png" style="border-radius: 5px;">
                 </a>
             </figure>
         </div>
@@ -173,7 +151,7 @@
         <div class="project-image tickertracker-img-div">
             <figure class="" style="width: 500px">
                 <a href="https://github.com/aaayon91/ticktracker" target="_blank">
-                <img src="./images/tickertracker.png" style="border-radius: 5px;">
+                <img class="images images-3" src="./images/tickertracker.png" style="border-radius: 5px;">
                 </a>
             </figure>
         </div>
@@ -248,7 +226,7 @@
         <div class="project-image connect4-img-div">
                 <figure class="" style="width: 400px">
                     <a href="https://github.com/aaayon91/connectfour" target="_blank">
-                    <img src="./images/connect4.png" style="border-radius: 5px;">
+                    <img class="images" src="./images/connect4.png" style="border-radius: 5px;">
                     </a>
                 </figure>
         </div>
