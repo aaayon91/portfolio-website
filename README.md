@@ -1,2 +1,2 @@
 # Portfolio Website
-### https://aaayon91.github.io/porfolio-website/
+### https://aaayon91.github.io/portfolio-website/
